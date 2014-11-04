@@ -1,9 +1,11 @@
-library(doMC)
+#library(doMC)
 library(Matrix)
 library(data.table)
+#install.packages("FNN")
 library(FNN)
+#install.packages("foreach")
 library(foreach)
-registerDoMC()
+#registerDoMC()
 
 #------------------------------------------------------------------------------
 # Laplacian Mean Map

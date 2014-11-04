@@ -1,5 +1,5 @@
-library(doMC)
-registerDoMC(cores=2)
+#library(doMC)
+#registerDoMC(cores=2)
 library(ggplot2)
 library(data.table)
 library(digest)

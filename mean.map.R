@@ -1,5 +1,5 @@
-library(doMC)
-registerDoMC()
+#library(doMC)
+#registerDoMC()
 
 #------------------------------------------------------------------------------
 # Mean Meap algorithm
