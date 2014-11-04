@@ -23,7 +23,7 @@ set.seed(123456)
 #The dataset is provided in the form of (label, bag, features)
 #with the label being still the binary labels.
 #This is useful in case of testing the model
-load(file=paste(current_path,"demo.heart.R", sep="")) #load heart.data
+load(file=paste(current_path,"demo.heart.Rd", sep="")) #load heart.data
 heart.data <- heart.data[sample(nrow(heart.data)),] #shuffle
 
 test.fold <- 1:(floor(nrow(heart.data)/5))
